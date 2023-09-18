@@ -1,1 +1,18 @@
-# helloworldhw00
+import datetime
+
+def my_brand(assignment_name):
+    data = """==== Bala Ashish Yeruva ====
+    
+==== Course 2023S-SSW567-WS ====
+
+==== {} ====
+
+==== {} ==== 
+""".format(assignment_name,datetime.datetime.now())
+    print(data)
+   
+my_brand("HW 00 - Tools Setup")
+
+print("Hello world!\n")
+
+my_brand("HW 00 - Tools Setup")
